@@ -28,3 +28,17 @@ string json = $$"""
     }
     """;
 Console.WriteLine(json);
+
+// Using target-typed new to instantiate objects
+System.Xml.XmlDocument xmlDocument = new(); // Target-typed new in C# 9 or later.
+
+// Getting and setting the default values for types.
+Console.WriteLine($"default(int) = {default(int)}");
+Console.WriteLine($"default(bool) = {default(bool)}");
+Console.WriteLine($"default(DateTime) = {default(DateTime)}");
+Console.WriteLine($"default(string) = {default(string)}");
+
+int number = 13;
+Console.WriteLine($"number set to: {number}");
+number = default;
+Console.WriteLine($"number reset to its default: {number}");
