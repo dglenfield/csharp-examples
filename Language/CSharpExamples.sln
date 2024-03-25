@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formatting", "Formatting\Fo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arguments", "Arguments\Arguments.csproj", "{0730C76D-5E02-49A1-A587-7956F5E2A608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncConsole", "AsyncConsole\AsyncConsole.csproj", "{355C5A97-D418-496A-9136-9EA2DD6BB1E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncConsole", "AsyncConsole\AsyncConsole.csproj", "{355C5A97-D418-496A-9136-9EA2DD6BB1E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Language", "Language", "{9D31BF14-C2FE-4E25-AAED-2ECF54C819B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F9473A5-71EB-4A97-9AE4-41B4D603238A} = {9D31BF14-C2FE-4E25-AAED-2ECF54C819B1}
+		{597DCDBE-059B-4318-B1C1-903CB516774D} = {9D31BF14-C2FE-4E25-AAED-2ECF54C819B1}
+		{BF410F9F-391D-45CB-A97E-0591FFFD2CAA} = {9D31BF14-C2FE-4E25-AAED-2ECF54C819B1}
+		{0730C76D-5E02-49A1-A587-7956F5E2A608} = {9D31BF14-C2FE-4E25-AAED-2ECF54C819B1}
+		{355C5A97-D418-496A-9136-9EA2DD6BB1E7} = {9D31BF14-C2FE-4E25-AAED-2ECF54C819B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA804E24-6516-4A79-AB12-EE1112052255}
