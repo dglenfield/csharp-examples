@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formatting", "Language\Form
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numbers", "Language\Numbers\Numbers.csproj", "{4383611C-77A6-4C83-8DDD-480C6799BDAA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionStatements", "Language\SelectionStatements\SelectionStatements.csproj", "{E05B53F4-9939-4655-B769-A564835A0A35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{4383611C-77A6-4C83-8DDD-480C6799BDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4383611C-77A6-4C83-8DDD-480C6799BDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4383611C-77A6-4C83-8DDD-480C6799BDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E05B53F4-9939-4655-B769-A564835A0A35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E05B53F4-9939-4655-B769-A564835A0A35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E05B53F4-9939-4655-B769-A564835A0A35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E05B53F4-9939-4655-B769-A564835A0A35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{7230A47E-E1F4-4A76-8CBF-84330D3A2F90} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
 		{6BE80E00-9D9F-4444-91A6-19BD13EAFCE8} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
 		{4383611C-77A6-4C83-8DDD-480C6799BDAA} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
+		{E05B53F4-9939-4655-B769-A564835A0A35} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA804E24-6516-4A79-AB12-EE1112052255}
