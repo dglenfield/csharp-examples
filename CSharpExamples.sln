@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numbers", "Language\Numbers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelectionStatements", "Language\SelectionStatements\SelectionStatements.csproj", "{E05B53F4-9939-4655-B769-A564835A0A35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Language\Arrays\Arrays.csproj", "{FEDBEEFD-83ED-4DC0-BF70-C4DF87F3E96F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Language\Arrays\Arrays.csproj", "{FEDBEEFD-83ED-4DC0-BF70-C4DF87F3E96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CastingConverting", "Language\CastingConverting\CastingConverting.csproj", "{D34E1F95-F936-4945-93B7-D36581858BA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{FEDBEEFD-83ED-4DC0-BF70-C4DF87F3E96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEDBEEFD-83ED-4DC0-BF70-C4DF87F3E96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEDBEEFD-83ED-4DC0-BF70-C4DF87F3E96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D34E1F95-F936-4945-93B7-D36581858BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34E1F95-F936-4945-93B7-D36581858BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34E1F95-F936-4945-93B7-D36581858BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34E1F95-F936-4945-93B7-D36581858BA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{4383611C-77A6-4C83-8DDD-480C6799BDAA} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
 		{E05B53F4-9939-4655-B769-A564835A0A35} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
 		{FEDBEEFD-83ED-4DC0-BF70-C4DF87F3E96F} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
+		{D34E1F95-F936-4945-93B7-D36581858BA5} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA804E24-6516-4A79-AB12-EE1112052255}
