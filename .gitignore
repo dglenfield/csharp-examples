@@ -26,3 +26,7 @@
 /Language/HandlingExceptions/obj
 /Language/WritingFunctions/bin/Debug/net8.0
 /Language/WritingFunctions/obj
+/Language/Instrumenting/bin
+/Language/Instrumenting/obj
+/Language/Instrumenting2/bin/Debug/net8.0
+/Language/Instrumenting2/obj
