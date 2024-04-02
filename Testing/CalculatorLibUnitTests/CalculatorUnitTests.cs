@@ -1,0 +1,35 @@
+using CalculatorLib;
+
+namespace CalculatorLibUnitTests;
+
+public class CalculatorUnitTests
+{
+    [Fact]
+    public void TestAdding2And2()
+    {
+        // Arrange: Set up the inputs and the unit test.
+        double a = 2; 
+        double b = 2; 
+        double expected = 4;
+        Calculator calculator = new();
+
+        // Act: Execute the function to test.
+        double actual = calculator.Add(a, b);
+
+        // Assert: Make assertions to compare expected to actual results.
+        Assert.Equal(expected, actual);
+    }
+
+    [Fact]
+    public void TestAdding2And3() 
+    {  
+        double a = 2; 
+        double b = 3;
+        double expected = 5;
+        Calculator calculator = new();
+    
+        double actual = calculator.Add(a, b);
+
+        Assert.Equal(expected, actual);
+    }
+}

@@ -25,9 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandlingExceptions", "Langu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WritingFunctions", "Language\WritingFunctions\WritingFunctions.csproj", "{FDFD8575-2002-49D0-BE0B-31824319AFD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instrumenting", "Language\Instrumenting\Instrumenting.csproj", "{A5FB5876-3DAB-431A-923B-E612EAAD84D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instrumenting", "Language\Instrumenting\Instrumenting.csproj", "{A5FB5876-3DAB-431A-923B-E612EAAD84D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instrumenting2", "Language\Instrumenting2\Instrumenting2.csproj", "{B6B5AE36-8EEF-4748-9CF5-765D57C4305A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Instrumenting2", "Language\Instrumenting2\Instrumenting2.csproj", "{B6B5AE36-8EEF-4748-9CF5-765D57C4305A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "Testing\CalculatorLib\CalculatorLib.csproj", "{351924C9-89A1-4298-BFC5-56278E390D98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Testing", "Unit Testing", "{8CED48B2-9ADA-456D-AD8E-CCFA009F0CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibUnitTests", "Testing\CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{3EC042CF-021E-4F76-8386-45AC238F4422}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +89,14 @@ Global
 		{B6B5AE36-8EEF-4748-9CF5-765D57C4305A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B5AE36-8EEF-4748-9CF5-765D57C4305A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B5AE36-8EEF-4748-9CF5-765D57C4305A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351924C9-89A1-4298-BFC5-56278E390D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351924C9-89A1-4298-BFC5-56278E390D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351924C9-89A1-4298-BFC5-56278E390D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351924C9-89A1-4298-BFC5-56278E390D98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC042CF-021E-4F76-8386-45AC238F4422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC042CF-021E-4F76-8386-45AC238F4422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC042CF-021E-4F76-8386-45AC238F4422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC042CF-021E-4F76-8386-45AC238F4422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +114,8 @@ Global
 		{FDFD8575-2002-49D0-BE0B-31824319AFD8} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
 		{A5FB5876-3DAB-431A-923B-E612EAAD84D5} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
 		{B6B5AE36-8EEF-4748-9CF5-765D57C4305A} = {F9C8798D-33B7-46B9-8C6E-EEE988A9F9EF}
+		{351924C9-89A1-4298-BFC5-56278E390D98} = {8CED48B2-9ADA-456D-AD8E-CCFA009F0CFA}
+		{3EC042CF-021E-4F76-8386-45AC238F4422} = {8CED48B2-9ADA-456D-AD8E-CCFA009F0CFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DA804E24-6516-4A79-AB12-EE1112052255}

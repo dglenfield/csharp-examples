@@ -30,3 +30,7 @@
 /Language/Instrumenting/obj
 /Language/Instrumenting2/bin/Debug/net8.0
 /Language/Instrumenting2/obj
+/Testing/CalculatorLib/bin/Debug/net8.0
+/Testing/CalculatorLib/obj
+/Testing/CalculatorLibUnitTests/bin/Debug/net8.0
+/Testing/CalculatorLibUnitTests/obj
