@@ -34,3 +34,10 @@
 /Testing/CalculatorLib/obj
 /Testing/CalculatorLibUnitTests/bin/Debug/net8.0
 /Testing/CalculatorLibUnitTests/obj
+/OOP/.vs
+/OOP/PacktLibraryModern/bin/Debug/net8.0
+/OOP/PacktLibraryModern/obj
+/OOP/PacktLibraryNetStandard2/bin/Debug/netstandard2.0
+/OOP/PacktLibraryNetStandard2/obj
+/OOP/PeopleApp/bin/Debug/net8.0
+/OOP/PeopleApp/obj
