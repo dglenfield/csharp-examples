@@ -56,3 +56,14 @@
 /PackagingAndDistributing/DotNetEverywhere/bin/Debug/net8.0
 /PackagingAndDistributing/DotNetEverywhere/obj
 /PackagingAndDistributing/SharedLibrary/obj
+/CommonTypes/.vs
+/CommonTypes/WorkingWIthCollections/bin/Debug/net8.0
+/CommonTypes/WorkingWIthCollections/obj
+/CommonTypes/WorkingWithNumbers/bin/Debug/net8.0
+/CommonTypes/WorkingWithNumbers/obj
+/CommonTypes/WorkingWithRanges/bin/Debug/net8.0
+/CommonTypes/WorkingWithRanges/obj
+/CommonTypes/WorkingWithRegularExpressions/bin/Debug/net8.0
+/CommonTypes/WorkingWithRegularExpressions/obj
+/CommonTypes/WorkingWithText/bin/Debug/net8.0
+/CommonTypes/WorkingWithText/obj
