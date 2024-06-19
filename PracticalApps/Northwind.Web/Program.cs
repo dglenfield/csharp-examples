@@ -1,3 +1,4 @@
+using System.Net.Http.Headers; // To use MediaTypeWithQualityHeaderValue.
 using Northwind.EntityModels; // To use AddNorthwindContext method.
 
 #region Configure the web server host and services.
@@ -6,6 +7,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
 builder.Services.AddNorthwindContext();
+
+builder.Services.AddHttpClient(name: "Northwind.WebApi",
+    configureClient: options =>
+    {
+        options.BaseAddress = new Uri("https://localhost:5151/");
+        options.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json", 1.0));
+    });
 
 var app = builder.Build();
 
