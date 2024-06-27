@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Console.EFCore", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Console.HierarchyMapping", "Northwind.Console.HierarchyMapping\Northwind.Console.HierarchyMapping.csproj", "{1F06DFFD-75FA-435F-ACE5-A78EFF3F193F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.EntityModels.SqlServer", "Northwind.Common.EntityModels.SqlServer\Northwind.Common.EntityModels.SqlServer.csproj", "{0D52BB84-C969-44AB-BFFC-10E3C445D794}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.EntityModels.SqlServer", "Northwind.Common.EntityModels.SqlServer\Northwind.Common.EntityModels.SqlServer.csproj", "{0D52BB84-C969-44AB-BFFC-10E3C445D794}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.DataContext.SqlServer", "Northwind.Common.DataContext.SqlServer\Northwind.Common.DataContext.SqlServer.csproj", "{650AB281-2F6A-4B88-82BC-BCD2626DD214}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.DataContext.SqlServer", "Northwind.Common.DataContext.SqlServer\Northwind.Common.DataContext.SqlServer.csproj", "{650AB281-2F6A-4B88-82BC-BCD2626DD214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Common.EntityModels.Tests", "Northwind.Common.EntityModels.Tests\Northwind.Common.EntityModels.Tests.csproj", "{15B93C2B-C822-4647-9F84-D1F590E6E103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.EntityModels.Tests", "Northwind.Common.EntityModels.Tests\Northwind.Common.EntityModels.Tests.csproj", "{15B93C2B-C822-4647-9F84-D1F590E6E103}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Console.CosmosDb.SqlApi", "Northwind.Console.CosmosDb.SqlApi\Northwind.Console.CosmosDb.SqlApi.csproj", "{6FEF2198-3996-46F6-A1B1-9B93C388C598}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{15B93C2B-C822-4647-9F84-D1F590E6E103}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15B93C2B-C822-4647-9F84-D1F590E6E103}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15B93C2B-C822-4647-9F84-D1F590E6E103}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FEF2198-3996-46F6-A1B1-9B93C388C598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FEF2198-3996-46F6-A1B1-9B93C388C598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FEF2198-3996-46F6-A1B1-9B93C388C598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FEF2198-3996-46F6-A1B1-9B93C388C598}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
