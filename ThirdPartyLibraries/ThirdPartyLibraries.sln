@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithImages", "WorkingWithImages\WorkingWithImages.csproj", "{64D29C4B-703E-45AC-AEF7-2FFF5158E1FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithImages", "WorkingWithImages\WorkingWithImages.csproj", "{64D29C4B-703E-45AC-AEF7-2FFF5158E1FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanizingData", "HumanizingData\HumanizingData.csproj", "{9C5AC3BC-F2CA-4F41-AFAC-E012BD82DFD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanizingData", "HumanizingData\HumanizingData.csproj", "{9C5AC3BC-F2CA-4F41-AFAC-E012BD82DFD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilogging", "Serilogging\Serilogging.csproj", "{C7FEC9C9-D0EB-4E70-97D9-C05350A0268A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9C5AC3BC-F2CA-4F41-AFAC-E012BD82DFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C5AC3BC-F2CA-4F41-AFAC-E012BD82DFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C5AC3BC-F2CA-4F41-AFAC-E012BD82DFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FEC9C9-D0EB-4E70-97D9-C05350A0268A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FEC9C9-D0EB-4E70-97D9-C05350A0268A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FEC9C9-D0EB-4E70-97D9-C05350A0268A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FEC9C9-D0EB-4E70-97D9-C05350A0268A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
