@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithTime", "WorkingWithTime\WorkingWithTime.csproj", "{CD6E3976-8B30-4481-9443-DFD053C24A6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeFunctionsLib", "TimeFunctionsLib\TimeFunctionsLib.csproj", "{8097BE23-1503-4EF5-9AA2-7759EA4671B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingWithTimeProvider", "TestingWithTimeProvider\TestingWithTimeProvider.csproj", "{E710719B-D39F-4899-833D-0081271C6181}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithTimeZones", "WorkingWithTimeZones\WorkingWithTimeZones.csproj", "{149C6727-F0FE-419B-8BD5-2D0935930895}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithCultures", "WorkingWithCultures\WorkingWithCultures.csproj", "{56E84F7C-4446-423E-B1F9-F9998997DE99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNodaTime", "WorkingWithNodaTime\WorkingWithNodaTime.csproj", "{6AB11397-A242-4FB8-9242-F314220235B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD6E3976-8B30-4481-9443-DFD053C24A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6E3976-8B30-4481-9443-DFD053C24A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6E3976-8B30-4481-9443-DFD053C24A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6E3976-8B30-4481-9443-DFD053C24A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8097BE23-1503-4EF5-9AA2-7759EA4671B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8097BE23-1503-4EF5-9AA2-7759EA4671B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8097BE23-1503-4EF5-9AA2-7759EA4671B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8097BE23-1503-4EF5-9AA2-7759EA4671B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E710719B-D39F-4899-833D-0081271C6181}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E710719B-D39F-4899-833D-0081271C6181}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E710719B-D39F-4899-833D-0081271C6181}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E710719B-D39F-4899-833D-0081271C6181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{149C6727-F0FE-419B-8BD5-2D0935930895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149C6727-F0FE-419B-8BD5-2D0935930895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149C6727-F0FE-419B-8BD5-2D0935930895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149C6727-F0FE-419B-8BD5-2D0935930895}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E84F7C-4446-423E-B1F9-F9998997DE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E84F7C-4446-423E-B1F9-F9998997DE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E84F7C-4446-423E-B1F9-F9998997DE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E84F7C-4446-423E-B1F9-F9998997DE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB11397-A242-4FB8-9242-F314220235B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB11397-A242-4FB8-9242-F314220235B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB11397-A242-4FB8-9242-F314220235B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB11397-A242-4FB8-9242-F314220235B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19926D78-5E3B-4112-A6BD-1465D031F5A5}
+	EndGlobalSection
+EndGlobal
