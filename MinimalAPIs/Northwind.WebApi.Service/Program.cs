@@ -1,0 +1,45 @@
+using Northwind.EntityModels; // To use the AddNorthwindContext method/
+using Packt.Extensions; // To use MapGets and so on.
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddAuthorization();
+builder.Services.AddAuthentication(defaultScheme: "Bearer").AddJwtBearer();
+
+builder.Services.AddNorthwindContext();
+builder.Services.AddCustomHttpLogging();
+builder.Services.AddCustomCors();
+
+builder.Services.AddCustomRateLimiting(builder.Configuration);
+
+var app = builder.Build();
+
+app.UseAuthorization();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseHttpLogging();
+
+await app.UseCustomClientRateLimiting();
+
+//app.UseCors(policyName: "Northwind.Mvc.Policy");
+app.UseCors(); // Without a named policy the middleware is added but not active.
+
+app.MapGets() // Default pageSIze: 10.
+    .MapPosts()
+    .MapPuts()
+    .MapDeletes();
+
+app.Run();
