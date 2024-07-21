@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NCrontab.Console", "NCrontab.Console\NCrontab.Console.csproj", "{E0D8D9D7-067A-4E05-B42A-D0F832514D07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.AzureFunctions.Service", "Northwind.AzureFunctions.Service\Northwind.AzureFunctions.Service.csproj", "{42E8DEB1-1551-42E9-BB14-F2DDE69D414D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0D8D9D7-067A-4E05-B42A-D0F832514D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D8D9D7-067A-4E05-B42A-D0F832514D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D8D9D7-067A-4E05-B42A-D0F832514D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D8D9D7-067A-4E05-B42A-D0F832514D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E8DEB1-1551-42E9-BB14-F2DDE69D414D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E8DEB1-1551-42E9-BB14-F2DDE69D414D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E8DEB1-1551-42E9-BB14-F2DDE69D414D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E8DEB1-1551-42E9-BB14-F2DDE69D414D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D7AD3D7-EF13-4673-B9FC-2B0391568F2D}
+	EndGlobalSection
+EndGlobal

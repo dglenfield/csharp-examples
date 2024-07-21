@@ -1,0 +1,3 @@
+@base_address = http://localhost:5101/
+
+GET {{base_address}}api/NumbersToChecksFunction?amount=123456
