@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.GraphQL.Service", "Northwind.GraphQL.Service\Northwind.GraphQL.Service.csproj", "{8F2DA93D-79B7-4B30-BD10-53B670DFFA0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Common.DataContext.SqlServer", "..\Data\Northwind.Common.DataContext.SqlServer\Northwind.Common.DataContext.SqlServer.csproj", "{97E907E2-AE10-4F75-8350-72CBBDA0F905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.GraphQL.Client.Mvc", "Northwind.GraphQL.Client.Mvc\Northwind.GraphQL.Client.Mvc.csproj", "{6BAEC1F9-D68E-4DD9-A387-C6C56E92F2CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.GraphQL.Client.Console", "Northwind.GraphQL.Client.Console\Northwind.GraphQL.Client.Console.csproj", "{CE23DED3-9D41-4A28-9650-B45704D69EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F2DA93D-79B7-4B30-BD10-53B670DFFA0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2DA93D-79B7-4B30-BD10-53B670DFFA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F2DA93D-79B7-4B30-BD10-53B670DFFA0C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8F2DA93D-79B7-4B30-BD10-53B670DFFA0C}.Debug|x64.Build.0 = Debug|Any CPU
+		{8F2DA93D-79B7-4B30-BD10-53B670DFFA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F2DA93D-79B7-4B30-BD10-53B670DFFA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F2DA93D-79B7-4B30-BD10-53B670DFFA0C}.Release|x64.ActiveCfg = Release|Any CPU
+		{8F2DA93D-79B7-4B30-BD10-53B670DFFA0C}.Release|x64.Build.0 = Release|Any CPU
+		{97E907E2-AE10-4F75-8350-72CBBDA0F905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E907E2-AE10-4F75-8350-72CBBDA0F905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E907E2-AE10-4F75-8350-72CBBDA0F905}.Debug|x64.ActiveCfg = Debug|x64
+		{97E907E2-AE10-4F75-8350-72CBBDA0F905}.Debug|x64.Build.0 = Debug|x64
+		{97E907E2-AE10-4F75-8350-72CBBDA0F905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E907E2-AE10-4F75-8350-72CBBDA0F905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E907E2-AE10-4F75-8350-72CBBDA0F905}.Release|x64.ActiveCfg = Release|x64
+		{97E907E2-AE10-4F75-8350-72CBBDA0F905}.Release|x64.Build.0 = Release|x64
+		{6BAEC1F9-D68E-4DD9-A387-C6C56E92F2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAEC1F9-D68E-4DD9-A387-C6C56E92F2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAEC1F9-D68E-4DD9-A387-C6C56E92F2CD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6BAEC1F9-D68E-4DD9-A387-C6C56E92F2CD}.Debug|x64.Build.0 = Debug|Any CPU
+		{6BAEC1F9-D68E-4DD9-A387-C6C56E92F2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAEC1F9-D68E-4DD9-A387-C6C56E92F2CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BAEC1F9-D68E-4DD9-A387-C6C56E92F2CD}.Release|x64.ActiveCfg = Release|Any CPU
+		{6BAEC1F9-D68E-4DD9-A387-C6C56E92F2CD}.Release|x64.Build.0 = Release|Any CPU
+		{CE23DED3-9D41-4A28-9650-B45704D69EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE23DED3-9D41-4A28-9650-B45704D69EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE23DED3-9D41-4A28-9650-B45704D69EEC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CE23DED3-9D41-4A28-9650-B45704D69EEC}.Debug|x64.Build.0 = Debug|Any CPU
+		{CE23DED3-9D41-4A28-9650-B45704D69EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE23DED3-9D41-4A28-9650-B45704D69EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE23DED3-9D41-4A28-9650-B45704D69EEC}.Release|x64.ActiveCfg = Release|Any CPU
+		{CE23DED3-9D41-4A28-9650-B45704D69EEC}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75C50634-6C9C-4B5B-88D6-9949793A3346}
+	EndGlobalSection
+EndGlobal

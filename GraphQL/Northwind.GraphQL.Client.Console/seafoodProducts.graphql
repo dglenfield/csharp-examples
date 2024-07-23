@@ -1,0 +1,7 @@
+﻿query SeafoodProducts {
+	productsInCategory(categoryId:8) {
+		productId
+		productName
+		unitsInStock
+	}
+}
