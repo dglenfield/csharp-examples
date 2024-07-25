@@ -1,0 +1,5 @@
+### Get Nancy Davolio.
+GET https://localhost:5131/v1/employee/1
+
+### Get Andrew Fuller.
+GET https://localhost:5131/v1/employee/2
